@@ -60,3 +60,4 @@ Aplicar aprendizaje no supervisado (DBSCAN) para:
 - Seaborn
 
 ## Estructura
+├── insurance.csv # Dataset ├── RUBEN_CASA_EP1.ipynb # Notebook principal └── README.md # Documentación
