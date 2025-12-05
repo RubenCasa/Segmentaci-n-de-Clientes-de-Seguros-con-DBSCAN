@@ -2,7 +2,7 @@
 
 ##  Descripción
 
-Proyecto de Machine Learning que aplica el algoritmo de clustering **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise) para segmentar clientes de una compañía de seguros médicos.
+Proyecto de Machine Learning que aplica el algoritmo de clustering **DBSCAN** para segmentar clientes de una compañía de seguros médicos.
 
 ##  Dataset
 
