@@ -1,4 +1,5 @@
 #  Segmentación de Clientes de Seguros con DBSCAN
+ <img width="1800" height="379" alt="image" src="https://github.com/user-attachments/assets/e45a0358-fedb-404c-9eb1-cafd6117ab8a" />
 
 ##  Descripción
 
