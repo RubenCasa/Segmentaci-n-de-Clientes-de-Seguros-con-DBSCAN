@@ -7,6 +7,7 @@ Proyecto de Machine Learning que aplica el algoritmo de clustering **DBSCAN** pa
 ##  Dataset
 
 **Insurance.csv** - Dataset de seguros médicos con 1,337 registros y 7 variables:
+DATASET: https://www.kaggle.com/datasets/mirichoi0218/insurance 
 
 | Variable | Tipo | Descripción |
 |----------|------|-------------|
