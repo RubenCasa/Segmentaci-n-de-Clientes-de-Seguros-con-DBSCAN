@@ -2,12 +2,11 @@
 
 ##  Descripción
 
-Proyecto de Machine Learning que aplica el algoritmo de clustering **DBSCAN** para segmentar clientes de una compañía de seguros médicos.
+Proyecto de Machine Learning que aplica el algoritmo de clustering **DBSCAN** (Density-Based Spatial Clustering of Applications with Noise) para segmentar clientes de una compañía de seguros médicos.
 
 ##  Dataset
 
 **Insurance.csv** - Dataset de seguros médicos con 1,337 registros y 7 variables:
-* DATASET: https://www.kaggle.com/datasets/mirichoi0218/insurance 
 
 | Variable | Tipo | Descripción |
 |----------|------|-------------|
@@ -19,7 +18,7 @@ Proyecto de Machine Learning que aplica el algoritmo de clustering **DBSCAN** pa
 | region | Categórica | Región de residencia |
 | charges | Numérica | Cargos del seguro médico |
 
-## Objetivo
+##  Objetivo
 
 Aplicar aprendizaje no supervisado (DBSCAN) para:
 - Segmentar clientes en grupos homogéneos
@@ -28,27 +27,28 @@ Aplicar aprendizaje no supervisado (DBSCAN) para:
 
 ##  Metodología
 
-1. **Carga y descripción del dataset**
-2. **Preprocesamiento y limpieza**
-3. **Análisis exploratorio (EDA)**
-4. **Estandarización con StandardScaler**
-5. **Reducción de dimensionalidad (PCA)**
-6. **Aplicación de DBSCAN**
-7. **Tuning de hiperparámetros**
-8. **Evaluación del modelo**
-9. **Conclusiones**
+1. Carga y descripción del dataset
+2. Preprocesamiento y limpieza
+3. Análisis exploratorio (EDA)
+4. Estandarización con StandardScaler
+5. Reducción de dimensionalidad (PCA)
+6. Aplicación de DBSCAN
+7. Tuning de hiperparámetros
+8. Evaluación del modelo
+9. Conclusiones
 
 ##  Resultados
 
 | Métrica | Valor |
 |---------|-------|
 | Clusters encontrados | 2 |
-| Silhouette Score | 0.561 |
-| Puntos de ruido | 14 (1%) |
+| Silhouette Score | 0.668 |
+| Davies-Bouldin Index | 0.542 |
+| Puntos de ruido | 8 (0.6%) |
 
 **Clusters identificados:**
-- **Cluster 0** (20%): Clientes de alto riesgo
-- **Cluster 1** (79%): Clientes estándar
+- **Cluster 0** (20.8%): Clientes de alto riesgo
+- **Cluster 1** (78.6%): Clientes estándar
 
 ##  Tecnologías
 
@@ -59,5 +59,19 @@ Aplicar aprendizaje no supervisado (DBSCAN) para:
 - Matplotlib
 - Seaborn
 
-## Estructura
-├── insurance.csv # Dataset ├── RUBEN_CASA_EP1.ipynb # Notebook principal └── README.md # Documentación
+##  Estructura
+
+```
+├── insurance.csv           # Dataset
+├── RUBEN_CASA_EP1.ipynb    # Notebook principal
+└── README.md               # Documentación
+```
+
+##  Autor
+
+**Rubén Casa**
+
+## Licencia
+
+Este proyecto es de uso académico.
+
